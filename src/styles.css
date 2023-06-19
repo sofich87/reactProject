@@ -1,0 +1,22 @@
+:root {
+    --color-primary: #2196f3; /* Color primario */
+    --color-background: #f0f0f0; /* Color de fondo */
+    --color-text: #333; /* Color del texto */
+  }
+  
+  body.dark {
+    --color-primary: #ff9800; /* Color primario en el tema oscuro */
+    --color-background: #222; /* Color de fondo en el tema oscuro */
+    --color-text: #fff; /* Color del texto en el tema oscuro */
+  }
+  
+  .App {
+    /* Resto de estilos del contenedor principal */
+    background-color: var(--color-background);
+    color: var(--color-text);
+  }
+  
+  .App.dark {
+    background-color: var(--color-background-dark);
+    color: var(--color-text-dark);
+  }
